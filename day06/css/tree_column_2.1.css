@@ -1,0 +1,29 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center; 
+    font-size: 30px;
+}
+.left{ 
+    width: 200px;
+    height: 400px;
+    background-color: aquamarine;
+    float: left;
+}
+.main {
+    width: 600px;
+    height: 400px;
+    background-color: bisque;
+    float: left;
+    position: absolute;
+    top:0px;
+    left: 200px;
+    margin: 0px 10px;
+}
+.right{
+    height: 400px;
+    background-color: aquamarine;
+    float: right;
+    width: calc(100% - 820px);
+}

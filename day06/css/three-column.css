@@ -1,0 +1,29 @@
+html,body{
+    margin: 0;
+}
+.left {
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: coral;
+}
+.right {
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    top:0;
+    right: 0;
+    background-color: coral;
+}
+.main {
+    height: 400px;
+    background-color: cornflowerblue;
+    margin: 0 210px;
+}
+.left,.right,.main{
+    text-align: center;
+    line-height: 400px;
+    font-size: 20px;
+}

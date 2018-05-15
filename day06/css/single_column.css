@@ -1,0 +1,9 @@
+/* 单列布局 */
+.main {
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    border: 1px dashed black;
+    text-align: center;
+    line-height: 300px;
+}

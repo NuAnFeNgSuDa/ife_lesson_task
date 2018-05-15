@@ -1,0 +1,22 @@
+html,body{
+    margin: 0;
+    text-align: center;
+    line-height: 400px;
+    font-size: 30px;
+}
+.main{
+    height: 400px;
+    background-color: bisque;
+    margin: 0 210px;
+}
+.left,.right{
+    width: 200px;
+    height: 400px;
+    background-color: aquamarine;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}

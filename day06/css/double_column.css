@@ -1,0 +1,49 @@
+/* 双列布局 */
+
+/* 两列固定宽度 */
+.left,.right {
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+    float: left;
+}
+.left {
+    width: 30%;
+    background-color: burlywood
+}
+.right {
+    width: 70%;
+    background-color: darkseagreen;
+}
+
+/* 左侧固定宽度，右侧自适应 */
+/* 1.双inline-block ，使用calc（）*/
+
+.left-side {
+    width: 200px;
+    height: 400px;
+    border: 5px solid #ddd;
+    display: inline-block; 
+}
+.right-side{
+    height: 400px;
+    margin-left: 20px;
+    border: 5px solid #ddd;
+    display: inline-block;
+    width: calc(100% - 250px);
+}
+
+/* 2.float方案 */
+.a{
+    width: 200px;
+    height: 200px;
+    background-color: darkolivegreen;
+     position: absolute;
+     top:1000px;
+     left: 0px;
+}
+.b{
+    height: 200px;
+    background-color: darkgray;
+    margin-left: 200px;
+}

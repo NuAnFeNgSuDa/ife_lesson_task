@@ -1,0 +1,13 @@
+#left {
+    width: 30%;
+    height: 1000px;
+    background-color: aquamarine;
+    float: left;
+}
+
+#right {
+    width: 70%;
+    height: 1000px;
+    background-color: coral;
+    float: left;
+}
